@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity"
+    android:background="#ffffff">
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Start" />
+
+    <TextView
+        android:id="@+id/txt_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_start"
+        android:layout_centerHorizontal="true"
+        android:singleLine="false" />
+
+    <TextView
+        android:id="@+id/txt_source"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_result"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"
+        android:text="Source" />
+
+    <TextView
+        android:id="@+id/txt_dest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_door1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:text="Destination" />
+
+    <TextView
+        android:id="@+id/txt_door1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_source"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:text="Door1" />
+
+    <TextView
+        android:id="@+id/txt_door2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_dest"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:text="Door2" />
+
+</RelativeLayout>

@@ -1,0 +1,4 @@
+#Wed Apr 18 16:40:20 KST 2018
+base.0=C\:\\Users\\choi\\AndroidStudioProjects\\Project1CAP\\samples\\EPDTypeAutoSample\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\100
+path.0=classes.dex
+renamed.0=classes.dex

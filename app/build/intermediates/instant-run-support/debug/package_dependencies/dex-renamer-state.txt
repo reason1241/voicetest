@@ -1,0 +1,4 @@
+#Mon Apr 09 17:20:59 KST 2018
+base.0=C\:\\Users\\choi\\AndroidStudioProjects\\naverspeech-sdk-android\\samples\\EPDTypeAutoSample\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\86
+path.0=classes.dex
+renamed.0=classes.dex
